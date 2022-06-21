@@ -1,10 +1,8 @@
-import React from "react";
-import { Rings } from 'react-loader-spinner';
+import React from 'react';
+import * as Hearts from 'react-loader-spinner';
 
-export const Loading = () => {
-  return (
-    <div className="flex justify-center items-center">
-      <Rings color="#00BFFF" height={550} width={80} />
-    </div>
-  );
-};
+export const Loading = () => (
+  <div className="flex justify-center items-center ">
+    <Hearts type="Puff" color="#00BFFF" height={550} width={80} />
+  </div>
+);
